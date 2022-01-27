@@ -24,7 +24,10 @@
     "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^6.1.8"
+    "express-session": "^1.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.8",
+    "requirejs": "^2.3.6"
   },
   "devDependencies": {
     "eslint": "^8.7.0",
