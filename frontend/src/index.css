@@ -18,16 +18,16 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas:
-    'header'
-    'main'
-    'footer';
+    "header"
+    "main"
+    "footer";
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
   height: 100%;
 }
 header {
   grid-area: header;
-  background-color: #203040;
+  background-color: #2590b1;
 }
 main {
   grid-area: main;
@@ -35,7 +35,7 @@ main {
 }
 footer {
   grid-area: footer;
-  background-color: #203040;
+  background-color: #2590b1;
   color: #ffffff;
 }
 /* Common */
