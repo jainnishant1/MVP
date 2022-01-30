@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/users", userRouter);
 app.use("/api/products", productRouter);
-app.use("api/orderrouter", orderRouter);
+app.use("api/orders", orderRouter);
 app.get("/", (req, res) => {
   res.send("Server is ready");
 });
